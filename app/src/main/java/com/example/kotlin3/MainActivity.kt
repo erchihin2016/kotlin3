@@ -4,8 +4,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.netology.dto.Post
-import ru.netology.util.verboseTime
 import java.text.SimpleDateFormat
 import java.util.*
 

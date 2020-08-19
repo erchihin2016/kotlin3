@@ -1,4 +1,4 @@
-package dto
+package com.example.kotlin3
 
 import java.util.Date
 

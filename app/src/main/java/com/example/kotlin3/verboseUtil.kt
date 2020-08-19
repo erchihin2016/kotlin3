@@ -1,4 +1,4 @@
-package util
+package com.example.kotlin3
 
 fun verboseTime(secs: Long): String {
     val mins: Long = 60
@@ -27,6 +27,8 @@ fun verboseTime(secs: Long): String {
         }
         else -> "больше года назад"
     }
+
+    //val mins = secs/3600;
 
     return result
 }
