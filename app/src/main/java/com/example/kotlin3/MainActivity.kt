@@ -79,26 +79,25 @@ class MainActivity : AppCompatActivity() {
 
         if (post.likedByMe) {
             likeButton.setImageResource(R.drawable.like_active)
-            likeTv.setTextColor(resources.getColor(R.color.colorred))
+            likeTv.setTextColor(resources.getColor(R.color.colorRed))
         } else {
             likeButton.setImageResource(R.drawable.like_inactive)
-            likeTv.setTextColor(resources.getColor(R.color.colorblack))
+            likeTv.setTextColor(resources.getColor(R.color.colorBlack))
         }
         if (post.commentedByMe) {
             commentButton.setImageResource(R.drawable.comment_active)
-            commentTv.setTextColor(resources.getColor(R.color.colored))
+            commentTv.setTextColor(resources.getColor(R.color.colorRed))
         } else {
             commentButton.setImageResource(R.drawable.comment)
-            commentTv.setTextColor(resources.getColor(R.color.colorlack))
+            commentTv.setTextColor(resources.getColor(R.color.colorBlack))
         }
         if (post.sharedByMe) {
             shareButton.setImageResource(R.drawable.share_active)
-            shareTv.setTextColor(resources.getColor(R.color.colred))
+            shareTv.setTextColor(resources.getColor(R.color.colorRed))
         } else {
             shareButton.setImageResource(R.drawable.share)
-            shareTv.setTextColor(resources.getColor(R.color.colblack))
+            shareTv.setTextColor(resources.getColor(R.color.colorBlack))
         }
 
     }
-
 }
